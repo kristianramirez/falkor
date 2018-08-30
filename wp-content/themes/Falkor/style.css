@@ -164,7 +164,6 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
   content: none;
 }
 
@@ -200,7 +199,7 @@ table {
 
 #page-content {
   /* Alignment */
-  width: 600px;
+  width: 800px;
   margin: 0 auto 0 auto;
 }
 
@@ -220,7 +219,7 @@ form {
 
 #header-img {
   /* size */
-  width: 600px;
+  width: 650px;
   /* positioning */
   display: block;
   margin-left: auto;
@@ -310,11 +309,11 @@ form {
 .post-type {
   /* size and positioning */
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .post-type img {
   /* size and positioning */
-  height: 50px;
+  height: 56px;
 }
 .post-type img:hover {
   /* other */
@@ -324,23 +323,16 @@ form {
 .crosspost-source {
   /* size and positioning */
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .dateline {
   /* alignment */
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   margin: 0.1em 0 0 0;
   /* typography */
   font-size: 0.8em;
-}
-
-/* boxes */
-.post-box {
-  margin-left: 3%;
-  min-width: 550px;
-  max-width: 90%;
 }
 
 /* titles */
@@ -403,7 +395,7 @@ form {
 /* boxes */
 #archive-box {
   margin-left: 3%;
-  min-width: 600px;
+  min-width: 650px;
   max-width: 90%;
 }
 

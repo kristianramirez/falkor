@@ -10,11 +10,11 @@
 .post-type {
 	/* size and positioning */
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	
 	img {
 		/* size and positioning */
-		height: 50px;
+		height: 56px;
 	}
 	
 	img:hover {
@@ -26,13 +26,13 @@
 .crosspost-source {
 	/* size and positioning */
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 }
 
 .dateline {
 	/* alignment */
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	margin: .1em 0 0 0;
 	
 	/* typography */

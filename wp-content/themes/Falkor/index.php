@@ -1,28 +1,28 @@
 <?php get_header(); ?>
 	
 <div id="page-box">
-	
-	<?php 
-		// Begin The Loop
-		if ( have_posts() ) : 
-        	while ( have_posts() ) : 
-        		the_post();
+
+	<div id="page-content">
+
+        <?php  // Begin The Loop
+        if ( have_posts() ) :
+            while ( have_posts() ) : the_post();
         					
-        		// Print horizontal rule to separate posts of different categories
-        		flkr_print_category_break( get_the_ID(), $category );
-        		$category = flkr_post_category();
+                // Print horizontal rule to separate posts of different categories
+				$category = " ";
+                flkr_print_category_break( get_the_ID(), $category );
+                $category = flkr_post_category();
         					
-				// post content
-					get_template_part( 'template-parts/post/content', flkr_post_category() );
+                // post content
+                get_template_part( 'template-parts/post/content', flkr_post_category() );
+
+            endwhile; ?>
 				
-			endwhile; ?>
-				
-			<!-- pagination navigation -->
-			
+            <!-- pagination navigation -->
             <nav class="pager">
-        		<!-- next_posts_link() -->
-            	<ul>
-            		<li><?php previous_posts_link( 'Back' ); ?></li>
+                <!-- next_posts_link() -->
+                <ul>
+                    <li><?php previous_posts_link( 'Back' ); ?></li>
                     <li> ● <li>
                     <li><?php next_posts_link( 'Next' ); ?></li>
                 </ul>
@@ -32,10 +32,12 @@
             
         <?php else : // no posts ?>
         
-        	<p><strong><?php _e('Sorry, no posts available.'); ?></strong></p>
+            <p><strong><?php _e('Sorry, no posts available.'); ?></strong></p>
         	
-        <?php endif; 
-    	// end THE LOOP ?>
+        <?php endif;
+        // end THE LOOP ?>
+
+    </div><!-- /#page-content -->
 
 </div><!-- /#page-box -->
 			
