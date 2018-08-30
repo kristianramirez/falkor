@@ -1,0 +1,31 @@
+/* boxes */
+
+#archive-box {
+	margin-left: 3%;
+	min-width: $header-img-size;
+	max-width: 90%;
+}
+
+/* misc. */
+
+.archive-title {
+    font-family: $heading-font;
+}
+
+#archive-list {
+    list-style: none;
+}
+
+.archive-title {
+    margin-top: .7em;
+    font-size: 1.2em;
+}
+
+.archive-dateline {
+    margin-top: 3.5em;
+}
+
+.archive-dateline h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}

@@ -1,0 +1,433 @@
+/*
+ * Theme Name: Falkor
+ * Author: Kristian Ramirez
+ * Description: An orignal theme for Dragonami.com
+ * Version: 1.0.0
+ * License: GNU General Public License ve or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: falkor
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /* typography */
+  font-size: 100%;
+  /* size & positioning */
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  height: auto;
+}
+
+html {
+  /* typography */
+  font-size: 12px;
+  color: #002663;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: normal;
+  line-height: 1.8em;
+  /* other */
+  background-color: #FFFFFF;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+a {
+  /* typography*/
+  text-decoration: none;
+  color: #b22234;
+}
+
+a:hover {
+  /* typography */
+  color: #002663;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b22234;
+  text-decoration-color: #b22234;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+blockquote {
+  /* Positioning */
+  margin: 2em 2em 2em 1em;
+  padding: 0 0.75em 0 1.25em;
+  /* misc */
+  border-left: 2px solid #b22234;
+}
+
+p {
+  margin-top: 1em;
+}
+
+hr {
+  height: 1px;
+  background: #b22234;
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#page-box {
+  /* Alignment */
+  min-width: 80%;
+  max-width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#page-content {
+  /* Alignment */
+  width: 600px;
+  margin: 0 auto 0 auto;
+}
+
+#page-title {
+  font-family: "Prompt", sans-serif;
+  font-size: 2em;
+}
+
+form {
+  width: 22.55em;
+  margin: 0 auto 2em auto;
+}
+
+#main-box {
+  margin: 3em 0 3em 0;
+}
+
+#header-img {
+  /* size */
+  width: 600px;
+  /* positioning */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+#site-author {
+  /* typography */
+  text-align: center;
+  font-size: 1.5em;
+  /* positioning */
+  margin-bottom: 1em;
+}
+
+#navbar {
+  /* size */
+  padding: 0.2em 0 0.1em 0;
+  /* misc. stuff */
+  background-color: #b22234;
+}
+
+#nav-menu {
+  /* Typography */
+  text-transform: uppercase;
+  /* size & positioning */
+  width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#nav-menu a {
+  /* typography */
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #FFFFFF;
+  /* alignment */
+  padding: 0 0.75em 0 0.75em;
+}
+#nav-menu a:hover {
+  /* typography */
+  text-decoration: none;
+  /* misc. */
+  background-color: #002663;
+}
+
+#header {
+  margin-bottom: 3em;
+}
+
+.post-box {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0 3em 0;
+}
+
+.pager {
+  /* alignment */
+  margin: 4em auto 0 auto;
+  text-align: center;
+  /* size */
+  height: 1em;
+  max-width: 11%;
+  min-width: 8em;
+}
+
+.pager ul {
+  /* typography */
+  list-style: none;
+}
+
+.pager li {
+  /* alignment */
+  float: left;
+  padding-left: 1em;
+}
+
+/* metabox */
+.metabox {
+  /* size and positioning */
+  display: flex;
+  flex-direction: column;
+  min-width: 10em;
+  margin: 0 1.5em 0 0;
+}
+
+.post-type {
+  /* size and positioning */
+  display: flex;
+  flex-direction: row-reverse;
+}
+.post-type img {
+  /* size and positioning */
+  height: 50px;
+}
+.post-type img:hover {
+  /* other */
+  background-color: #D3D0CB;
+}
+
+.crosspost-source {
+  /* size and positioning */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.dateline {
+  /* alignment */
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0.1em 0 0 0;
+  /* typography */
+  font-size: 0.8em;
+}
+
+/* boxes */
+.post-box {
+  margin-left: 3%;
+  min-width: 550px;
+  max-width: 90%;
+}
+
+/* titles */
+.article-title, .linked-title, .crosspost-title {
+  /* typography */
+  font-family: "Prompt", sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  /* size and positioning */
+  margin-bottom: 0.1em;
+}
+
+.article-title {
+  /* typography */
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: bold;
+}
+.article-title a {
+  /* typography */
+  color: #002663;
+}
+.article-title a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b22234;
+  text-decoration-color: #b22234;
+}
+
+.linked-title, .crosspost-title {
+  /* typography */
+  line-height: 1.15;
+  font-size: 1.05em;
+  font-weight: 500;
+}
+.linked-title img, .crosspost-title img {
+  /* size and positioning */
+  height: 1em;
+  margin-left: 0.75em;
+  vertical-align: bottom;
+}
+.linked-title img:hover, .crosspost-title img:hover {
+  background-color: #D3D0CB;
+}
+.linked-title a, .crosspost-title a {
+  /* typography */
+  color: #002663;
+  -webkit-text-decoration-color: #b22234;
+  text-decoration-color: #b22234;
+}
+
+#footer {
+  /* positioning */
+  width: 50%;
+  margin: 6em auto 0 auto;
+  padding-bottom: 1em;
+  /* typography */
+  text-align: center;
+}
+
+/* boxes */
+#archive-box {
+  margin-left: 3%;
+  min-width: 600px;
+  max-width: 90%;
+}
+
+/* misc. */
+.archive-title {
+  font-family: "Prompt", sans-serif;
+}
+
+#archive-list {
+  list-style: none;
+}
+
+.archive-title {
+  margin-top: 0.7em;
+  font-size: 1.2em;
+}
+
+.archive-dateline {
+  margin-top: 3.5em;
+}
+
+.archive-dateline h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
