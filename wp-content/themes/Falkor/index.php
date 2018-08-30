@@ -9,7 +9,7 @@
             while ( have_posts() ) : the_post();
         					
                 // Print horizontal rule to separate posts of different categories
-				$category = " ";
+				$category;
                 flkr_print_category_break( get_the_ID(), $category );
                 $category = flkr_post_category();
         					

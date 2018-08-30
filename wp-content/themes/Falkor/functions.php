@@ -96,7 +96,7 @@ function flkr_the_crosspost_source( $post = null ) {
 // Print separation horizontal rule in between posts of different categories in index
 function flkr_print_category_break( $post = null, $prevCategory ) {
 	if ( $post = get_post( $post )) {
-		if ( flkr_post_category( $post ) != $prevCategory && $prevCategory != null ) {
+	    if ( flkr_post_category( $post ) != $prevCategory && $prevCategory != null ) {
 			echo "<hr>";
 		}
 	}
