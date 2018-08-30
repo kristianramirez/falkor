@@ -6,7 +6,7 @@
 	
 	<?php get_search_form() ?>
 
-	<h1 id="page-title">Search Results for "<?php echo get_search_query() ?>"</h1>
+	<h1 class="page-title" id="search-page-title">Search Results for "<?php echo get_search_query() ?>"</h1>
 	
 	<div id="search-box">
 		<?php 

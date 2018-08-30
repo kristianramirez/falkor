@@ -8,7 +8,7 @@
 	
 	<?php get_search_form(); ?>  
 
-		<h1 id="page-title">From The Archives</h1>
+		<h1 class="page-title" id="archive-page-title">From The Archives</h1>
 	
      	<div id="archive-box">
      

@@ -1,3 +1,5 @@
+/* General Page Layouts */
+
 #page-box {
 	 /* Alignment */
 	 min-width: 80%;
@@ -11,14 +13,56 @@
 	 margin: 0 auto 0 auto;
 }
 
-#page-title {
+.page-title {
 	font-family: $heading-font;
 	font-size: 2em;
 	
 }
 
 form {
-	width: 22.55em;
-	margin: 0 auto 2em auto; 
+	width: 23.8em;
+	margin: 1em auto 5em auto;
 }
+
+#searchfield {
+	width: 20em;
+}
+
+/* Archive & Search Pages */
+
+/* boxes */
+
+#archive-box, #search-box {
+	/* size and positioning */
+	width: $header-img-size;
+	margin: 0 auto 0 auto;
+	padding-left: 20em;
+}
+
+/* misc. */
+
+#archive-page-title, #search-page-title {
+	padding-left: 6em;
+}
+
+.archive-title, .search-title {
+	font-family: $heading-font;
+	margin-top: .7em;
+	font-size: 1.2em;
+}
+
+#archive-list {
+	list-style: none;
+}
+
+.archive-dateline {
+	margin-top: 3.5em;
+}
+
+.archive-dateline h2 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+/* Search Page */
  

@@ -190,6 +190,7 @@ table {
   border-spacing: 0;
 }
 
+/* General Page Layouts */
 #page-box {
   /* Alignment */
   min-width: 80%;
@@ -203,16 +204,54 @@ table {
   margin: 0 auto 0 auto;
 }
 
-#page-title {
+.page-title {
   font-family: "Prompt", sans-serif;
   font-size: 2em;
 }
 
 form {
-  width: 22.55em;
-  margin: 0 auto 2em auto;
+  width: 23.8em;
+  margin: 1em auto 5em auto;
 }
 
+#searchfield {
+  width: 20em;
+}
+
+/* Archive & Search Pages */
+/* boxes */
+#archive-box, #search-box {
+  /* size and positioning */
+  width: 650px;
+  margin: 0 auto 0 auto;
+  padding-left: 20em;
+}
+
+/* misc. */
+#archive-page-title, #search-page-title {
+  padding-left: 6em;
+}
+
+.archive-title, .search-title {
+  font-family: "Prompt", sans-serif;
+  margin-top: 0.7em;
+  font-size: 1.2em;
+}
+
+#archive-list {
+  list-style: none;
+}
+
+.archive-dateline {
+  margin-top: 3.5em;
+}
+
+.archive-dateline h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* Search Page */
 #main-box {
   margin: 3em 0 3em 0;
 }
@@ -390,36 +429,6 @@ form {
   padding-bottom: 1em;
   /* typography */
   text-align: center;
-}
-
-/* boxes */
-#archive-box {
-  margin-left: 3%;
-  min-width: 650px;
-  max-width: 90%;
-}
-
-/* misc. */
-.archive-title {
-  font-family: "Prompt", sans-serif;
-}
-
-#archive-list {
-  list-style: none;
-}
-
-.archive-title {
-  margin-top: 0.7em;
-  font-size: 1.2em;
-}
-
-.archive-dateline {
-  margin-top: 3.5em;
-}
-
-.archive-dateline h2 {
-  font-size: 1.4em;
-  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
