@@ -225,7 +225,7 @@ table {
 }
 
 .page-title {
-  font-family: "Prompt", sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 2em;
   padding-left: 6em;
 }
@@ -250,7 +250,7 @@ form {
 
 /* misc. */
 .archive-title, .search-title {
-  font-family: "Prompt", sans-serif;
+  font-family: "Overpass", sans-serif;
   margin-top: 0.7em;
   font-size: 1.2em;
 }
@@ -339,23 +339,22 @@ form {
 
 .pager {
   /* alignment */
-  margin: 4em auto 0 auto;
+  margin: 4em auto 2em auto;
   text-align: center;
   /* size */
   height: 1em;
-  max-width: 11%;
-  min-width: 8em;
+  width: 800px;
 }
-
 .pager ul {
   /* typography */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 0 auto;
   list-style: none;
 }
-
 .pager li {
-  /* alignment */
-  float: left;
-  padding-left: 1em;
+  margin: 0 0.3em 0 0.3em;
 }
 
 /* metabox */
@@ -399,8 +398,8 @@ form {
 /* titles */
 .article-title, .linked-title, .crosspost-title {
   /* typography */
-  font-family: "Prompt", sans-serif;
-  letter-spacing: 0.15em;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   /* size and positioning */
   margin-bottom: 0.1em;
@@ -447,7 +446,7 @@ form {
 #footer {
   /* positioning */
   width: 50%;
-  margin: 6em auto 0 auto;
+  margin: 4em auto 0 auto;
   padding-bottom: 1em;
   /* typography */
   text-align: center;

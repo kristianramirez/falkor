@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'flkr_scripts' );
 // Fonts
 function flkr_fonts() {
     // Google Fonts "Roboto" & "Lato"
-    wp_register_style( 'flkr_google_fonts', 'https://fonts.googleapis.com/css?family=Prompt:500,700|Roboto:400,400i,700>' );
+    wp_register_style( 'flkr_google_fonts', 'https://fonts.googleapis.com/css?family=Overpass:600,800|Roboto:400,400i,700' );
     wp_enqueue_style( 'flkr_google_fonts' );
 }
 add_action( 'wp_print_styles', 'flkr_fonts' );

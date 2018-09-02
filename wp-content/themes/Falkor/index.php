@@ -23,7 +23,7 @@
                 <!-- next_posts_link() -->
                 <ul>
                     <li><?php previous_posts_link( 'Back' ); ?></li>
-                    <li> ● <li>
+                    <li> ● </li>
                     <li><?php next_posts_link( 'Next' ); ?></li>
                 </ul>
             </nav><!-- .pager -->
@@ -36,6 +36,8 @@
         	
         <?php endif;
         // end THE LOOP ?>
+
+		<?php get_search_form() ?>
 
     </div><!-- /#page-content -->
 
