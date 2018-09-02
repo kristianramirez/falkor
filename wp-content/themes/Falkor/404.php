@@ -2,7 +2,7 @@
 
 <div id="page-box">
 
-	<div id="page-content">
+	<div id="content-box">
 
     	<section class="error-404 not-found">
 

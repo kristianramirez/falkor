@@ -168,14 +168,18 @@ blockquote {
     border-left: 2px solid $color-secondary;
 }
 
-p {
-    margin-top: 1em;   
+h3 {
+	margin: .5em 0 .5em 0;
 }
 
 hr {
 	height: 1px;
 	background: $color-secondary;
 	border: 0;
+}
+
+p {
+    margin-top: 1em;   
 }
 
 table {

@@ -2,7 +2,7 @@
 	
 <div id="page-box">
 
-	<div id="page-content">
+	<div id="content-box">
 	
 	<?php get_search_form() ?>
 
