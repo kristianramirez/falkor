@@ -20,7 +20,7 @@
                 		<a href="/archive">Archive</a>
                 		<a href="/about">About</a>
                 		<a href="/feeds">Feeds</a>
-                		<a href="https://twitter.com/kristianramirez">Twitter</a></ul>
+                		<a href="https://twitter.com/kristianramirez">Twitter</a>
                 	</nav>
                 </div><!-- /#nav-bar -->
 
