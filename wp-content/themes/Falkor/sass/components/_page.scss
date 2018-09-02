@@ -39,15 +39,6 @@
 	
 }
 
-form {
-	width: 23.8em;
-	margin: 1em auto 5em auto;
-}
-
-#searchfield {
-	width: 20em;
-}
-
 /* Archive & Search Pages */
 /* boxes */
 #archive-box, #search-box {
@@ -81,4 +72,9 @@ form {
 #about-img {
 	transform: rotate(90deg);
 	width: 250px;
+}
+
+/* misc. */
+#searchfield {
+	width: 20em;
 }

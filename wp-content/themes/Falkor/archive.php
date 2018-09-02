@@ -50,8 +50,8 @@
             
         	<?php endif; // end The Loop ?>
         
-     </div><!-- /#page-content -->
+     </div><!-- /#content-box -->
      
 </div><!-- /#page-box -->
-        
-    <?php get_footer(); ?>
+
+<?php get_footer(); ?>
