@@ -9,7 +9,7 @@
 
         <div id="page-content">
 
-            <img src="/media/headshots/about-img.jpg" alt="Kristian Ramire" />
+            <img id="about-img" src="/media/headshots/about-img.jpg" alt="Kristian Ramire" />
 
             <p>Dragonami is written and produced by <a href="https://twitter.com/kristianramirez">Kristian Ramirez</a>.</p>
 
