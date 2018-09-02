@@ -1,0 +1,52 @@
+/* titles */
+.article-title, .linked-title, .crosspost-title {
+	/* typography */
+	font-family: $heading-font;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	
+	/* size and positioning */
+	margin-bottom: .1em;
+	
+}
+
+.article-title {
+	/* typography */
+	font-size: 1.3em;
+	line-height: 1em;
+	font-weight: bold;
+	
+	a {
+		/* typography */
+		color: $color-primary;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+		@include text-decoration-color( $color-secondary );
+	}
+}
+
+.linked-title, .crosspost-title {
+	/* typography */
+	line-height: 1.15;
+	font-size: 1.05em;
+	font-weight: 500;
+	
+	img {
+		/* size and positioning */
+		height: 1.0em;
+		margin-left: .75em;
+		vertical-align: bottom;
+	}
+	
+	img:hover {
+		background-color: $color-grey;
+	}
+	
+	a {
+		/* typography */
+		color: $color-primary;
+		@include text-decoration-color ( $color-secondary );
+	}
+}
