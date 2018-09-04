@@ -3,6 +3,15 @@
     
     <head>
         <?php wp_head(); ?>
+		<link href="https://micro.blog/kristianramirez" rel="me" />
+
+		<!-- Open Graph Tags -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@dragonamidotcom" />
+		<meta name="twitter:title" content="<?php wp_title( '', true, 'right' ); ?>" />
+		<meta name="twitter:description" content="by Kristian Ramirez" />
+		<meta name="twitter:image" content="/media/logos/thumbnail-img.png" />
+		<!-- End Open Graph Tags -->
     </head>
     
     <body>
