@@ -132,10 +132,6 @@ section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
 a {
   /* typography*/
   text-decoration: none;
@@ -173,6 +169,12 @@ blockquote {
   padding: 0 0.75em 0 1.25em;
   /* misc */
   border-left: 2px solid #b22234;
+  outline: 0;
+}
+
+form {
+  width: 23.8em;
+  margin: 1em auto 5em auto;
 }
 
 h3 {
@@ -186,7 +188,7 @@ hr {
 }
 
 p {
-  margin-top: 1em;
+  margin: 1em 0 1em 0;
 }
 
 table {
@@ -225,18 +227,9 @@ table {
 }
 
 .page-title {
-  font-family: "Overpass", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2em;
   padding-left: 6em;
-}
-
-form {
-  width: 23.8em;
-  margin: 1em auto 5em auto;
-}
-
-#searchfield {
-  width: 20em;
 }
 
 /* Archive & Search Pages */
@@ -250,7 +243,7 @@ form {
 
 /* misc. */
 .archive-title, .search-title {
-  font-family: "Overpass", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 0.7em;
   font-size: 1.2em;
 }
@@ -272,6 +265,11 @@ form {
 #about-img {
   transform: rotate(90deg);
   width: 250px;
+}
+
+/* misc. */
+#searchfield {
+  width: 20em;
 }
 
 #main-box {
@@ -398,17 +396,16 @@ form {
 /* titles */
 .article-title, .linked-title, .crosspost-title {
   /* typography */
-  font-family: "Overpass", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
   /* size and positioning */
   margin-bottom: 0.1em;
 }
 
 .article-title {
   /* typography */
-  font-size: 1.3em;
-  line-height: 1em;
+  font-size: 1.55em;
+  line-height: 1.5em;
   font-weight: bold;
 }
 .article-title a {
@@ -423,9 +420,10 @@ form {
 
 .linked-title, .crosspost-title {
   /* typography */
-  line-height: 1.15;
+  line-height: 1.15em;
   font-size: 1.05em;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .linked-title img, .crosspost-title img {
   /* size and positioning */
