@@ -296,7 +296,7 @@ table {
 
 #navbar {
   /* size */
-  padding: 0.2em 0 0.1em 0;
+  padding: 0.5em 0 0.1em;
   /* misc. stuff */
   background-color: #b22234;
 }
@@ -316,7 +316,7 @@ table {
   font-weight: bold;
   color: #FFFFFF;
   /* alignment */
-  padding: 0 0.75em 0 0.75em;
+  padding: 0.33em 0.75em 0.22em 0.75em;
 }
 #nav-menu a:hover {
   /* typography */
