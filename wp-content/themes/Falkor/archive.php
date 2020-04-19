@@ -17,7 +17,7 @@
             	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 
             	$args =  array( 
-                            	'category_name'     => 'articles',
+                            	'category_name'     => 'article',
                             	'orderby'           => 'date',
                             	'order'             => 'DESC',
 								'posts_per_page'    => 500,
